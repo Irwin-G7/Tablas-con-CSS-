@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(186, 219, 219);
+}
+.contenedor{
+    background-color: azure;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse; 
+    background-color: rgb(186, 219, 219);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table, th{
+    border: 3px solid black;
+}
+th{
+    background-color: rgb(68, 157, 157);
+    color: white;
+}
+header{
+    background-color: rgb(68, 157, 157);
+    padding: 20px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2{
+    color: rgb(186, 219, 219);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin-top: 25px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    font-size: 16px;
+    color: rgb(68, 157, 157);
+    margin-bottom: 40px;
+}
+.restaurante{
+    border: 8px solid black;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+    font-size: 10px;
+    color: rgb(32, 106, 106);
+    margin-bottom: 35px;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 350px;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+footer{
+    background-color: rgb(68, 157, 157);
+    margin-top: 50px;
+}
